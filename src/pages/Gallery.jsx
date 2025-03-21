@@ -10,25 +10,25 @@ const staticImages = [
   { 
     url: img1, 
     id: 'static-1',
-    title: 'Mediterranean Delight',
-    description: 'Fresh vegetables and herbs with olive oil dressing',
+    title: 'Paasta',
+    description: '**Pasta** is an Italian dish of wheat dough, shaped and cooked with sauces and vegetables.',
     category: 'Healthy',
     dateTime: '2024-12-15T14:30:00'
   },
   { 
     url: img2, 
     id: 'static-2',
-    title: 'Berry Parfait',
-    description: 'Layers of yogurt, granola, and fresh berries',
+    title: 'khichdi',
+    description: 'Khichdi is a simple Indian dish of boiled rice and daal.',
     category: 'Breakfast',
     dateTime: '2024-12-18T09:15:00'
   },
   { 
     url: img3, 
     id: 'static-3',
-    title: 'Grilled Salmon',
-    description: 'Wild-caught salmon with lemon and herbs',
-    category: 'Dinner',
+    title: 'chooda doodh',
+    description: 'Chooda Doodh is a traditional dish',
+    category: 'Breakfast',
     dateTime: '2024-12-20T18:45:00'
   },
 ];
