@@ -2,12 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Replace vite.svg with your new Food Snap favicon -->
+    <link rel="icon" type="image/svg+xml" href="/food-snap-favicon.svg" />
+    <!-- Favicon variations for different platforms -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Snap </title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Food Snap - Share Your Culinary Journey with Food Enthusiasts</title>
+    <meta name="title" content="Food Snap - Share Your Culinary Journey with Food Enthusiasts">
+    <meta name="description" content="Upload and share your food photography, discover recipes, and connect with a global community of food lovers. Join Food Snap today!">
+    
+    <!-- Keywords relevant to your website -->
+    <meta name="keywords" content="food photography, food sharing, culinary, recipes, food community, food enthusiasts, food blogging">
+    
+    <!-- Robots meta tag -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL to prevent duplicate content issues -->
+    <meta name="canonical" href="https://foodsnap.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foodsnap.com/">
+    <meta property="og:title" content="Food Snap - Share Your Culinary Journey">
+    <meta property="og:description" content="Upload and share your food photography, discover recipes, and connect with a global community of food lovers.">
+    <meta property="og:image" content="https://foodsnap.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://foodsnap.com/">
+    <meta property="twitter:title" content="Food Snap - Share Your Culinary Journey">
+    <meta property="twitter:description" content="Upload and share your food photography, discover recipes, and connect with a global community of food lovers.">
+    <meta property="twitter:image" content="https://foodsnap.com/twitter-image.jpg">
+    
+    <!-- Theme color for browser -->
+    <meta name="theme-color" content="#4CAF50">
+    
+    <!-- Author information -->
+    <meta name="author" content="Food Snap">
+    
+    <!-- Verification tags (replace with your actual verification codes) -->
+    <meta name="google-site-verification" content="your-google-verification-code">
+    
+    <!-- Preconnect to improve performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Structured data for rich snippets (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Food Snap",
+      "url": "https://foodsnap.com",
+      "description": "Upload and share your food photography, discover recipes, and connect with a global community of food lovers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://foodsnap.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Optional: Add noscript tag for users with JavaScript disabled -->
+    <noscript>
+      <div style="text-align: center; padding: 20px; margin: 20px; background-color: #f8d7da; color: #721c24; border-radius: 5px;">
+        Please enable JavaScript to use Food Snap. We require JavaScript to provide you with the best experience.
+      </div>
+    </noscript>
   </body>
 </html>
